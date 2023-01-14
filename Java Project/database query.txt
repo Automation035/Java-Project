@@ -1,0 +1,19 @@
+create database student
+
+ 
+
+use student;
+
+ 
+
+create table student_details(rollnum int(11) primary key auto_increment,
+sname varchar(25) ,
+standard varchar(15),
+clgname varchar(15),
+city varchar(15),
+percentage DOUBLE(40,2)
+);
+
+ 
+
+select*from student_details;
